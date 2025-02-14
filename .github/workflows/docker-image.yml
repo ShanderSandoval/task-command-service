@@ -1,24 +1,3 @@
-Skip to content
-Navigation Menu
-ShanderSandoval
-project-command-service
-
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Deploy Docker to EC2
-Update docker-image.yml #4
-Jobs
-Run details
-Workflow file for this run
-.github/workflows/docker-image.yml at 5c235a1
 name: Deploy Docker to EC2
 
 on:
@@ -115,4 +94,3 @@ jobs:
               -e SPRING_KAFKA_BOOTSTRAP-SERVERS=${{ secrets.SPRING_KAFKA_BOOTSTRAP_SERVERS }} \
               ${{ secrets.DOCKER_IMAGE_NAME }}:latest
             echo "✅ Despliegue completado con Docker 🚀"
-Update docker-image.yml · ShanderSandoval/project-command-service@5c235a1
