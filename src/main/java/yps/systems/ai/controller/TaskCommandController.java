@@ -14,6 +14,7 @@ import yps.systems.ai.repository.ITaskRepository;
 
 import java.util.Optional;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/command/taskService")
 public class TaskCommandController {
